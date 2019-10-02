@@ -3,3 +3,12 @@
 1	909	591689859	CMakeFiles/hello-neon.dir/helloneon.c.o	9ad387027d8dd98b
 896	1545	591689860	libcpufeatures.a	915f3a441107a689
 1545	1783	591689860	C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/build/intermediates/cmake/debug/obj/x86_64/libhello-neon.so	ed47f4fad832f15
+8	879	591691619	CMakeFiles/hello-neon.dir/helloneon.c.o	9ad387027d8dd98b
+51	898	591691619	CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	9eb1ebf76cea36c4
+898	1767	591691620	libcpufeatures.a	915f3a441107a689
+1767	2002	591691620	C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/build/intermediates/cmake/debug/obj/x86_64/libhello-neon.so	ed47f4fad832f15
+10	1375	591692783	CMakeFiles/hello-neon.dir/timer.c.o	b65a7ccbf9a76996
+37	1409	591692783	CMakeFiles/hello-neon.dir/helloneon.c.o	9ad387027d8dd98b
+40	1505	591692783	CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	9eb1ebf76cea36c4
+1506	1921	591692783	libcpufeatures.a	915f3a441107a689
+1922	2605	591692784	C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/build/intermediates/cmake/debug/obj/x86_64/libhello-neon.so	4c0b3e97aed7662b
