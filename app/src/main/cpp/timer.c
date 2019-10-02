@@ -48,7 +48,7 @@ void	tmr_init( unsigned long p_interval)
 {
 
     timer0 = now_ms();
-    interval = p_interval;
+    interval = p_interval * 1000.0;
 }
 /*
 unsigned long tmr_get_elsapsed_time(void)
@@ -66,7 +66,7 @@ unsigned long tmr_get_elsapsed_time(void)
 
 bool tmr_poll(void){
 
-    if (now_ms() - timer0 >= interval ){
+    if ((now_ms() - timer0) >= interval ){
         timer0 = timer0 + interval;
         return true;
     }

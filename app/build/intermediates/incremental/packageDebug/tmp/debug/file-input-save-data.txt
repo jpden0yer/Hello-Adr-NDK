@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 02 00:20:01 EDT 2019
+#Wed Oct 02 00:58:08 EDT 2019
 1.base=C\:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 2.path=lib/x86/libhello-neon.so
 0.baseType=DIRECTORY
