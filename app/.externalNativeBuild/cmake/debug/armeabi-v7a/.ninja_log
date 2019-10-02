@@ -1,0 +1,6 @@
+# ninja log v5
+7	488	591689862	CMakeFiles/hello-neon.dir/helloneon.c.o	715725e4a3ecdf0d
+1	533	591689862	CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o	a98d19e8424260ab
+11	544	591689862	CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	63cb6081b647a36c
+545	988	591689863	libcpufeatures.a	56618c02a8e47836
+989	1359	591689863	C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-neon.so	452b18d955fc29d2

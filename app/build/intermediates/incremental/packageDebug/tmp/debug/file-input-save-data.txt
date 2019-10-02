@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Tue Oct 01 23:28:37 EDT 2019
+1.base=C\:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+2.path=lib/x86/libhello-neon.so
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=C\:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+3.set=NATIVE_RESOURCE
+2.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+3.path=lib/armeabi-v7a/libhello-neon.so
+count=4
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+3.base=C\:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.set=DEX
+0.base=C\:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+2.baseType=DIRECTORY
+1.path=lib/x86_64/libhello-neon.so

@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "hello-neon-Debug-x86_64": {
+      "artifactName": "hello-neon",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target hello-neon",
+      "abi": "x86_64",
+      "output": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libhello-neon.so"
+    },
+    "cpufeatures-Debug-x86_64": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target cpufeatures",
+      "abi": "x86_64",
+      "output": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.externalNativeBuild\\cmake\\debug\\x86_64\\libcpufeatures.a"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/hello-neon.dir
+C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/cpufeatures.dir
+C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

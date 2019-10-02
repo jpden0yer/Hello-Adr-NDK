@@ -1,0 +1,8 @@
+Executable : C:\Users\user\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+--build
+C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\.externalNativeBuild\cmake\debug\armeabi-v7a
+--target
+hello-neon
+jvmArgs : 
+

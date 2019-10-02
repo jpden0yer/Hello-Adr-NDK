@@ -1,0 +1,4 @@
+[1/4] Building C object CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o
+[2/4] Building C object CMakeFiles/hello-neon.dir/helloneon.c.o
+[3/4] Linking C static library libcpufeatures.a
+[4/4] Linking C shared library C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\build\intermediates\cmake\debug\obj\x86_64\libhello-neon.so

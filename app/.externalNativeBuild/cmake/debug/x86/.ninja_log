@@ -1,0 +1,11 @@
+# ninja log v5
+3	3829	591688219	CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o	58816cc3ce1ce578
+51	3945	591688219	CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	8e58705ee552e221
+41	4502	591688220	CMakeFiles/hello-neon.dir/helloneon.c.o	a9dd8046af5dc674
+3945	5026	591688220	libcpufeatures.a	8b8c6c4274b8a090
+5027	5229	591688220	C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/build/intermediates/cmake/debug/obj/x86/libhello-neon.so	3a8851e8fc33c6e
+6	324	591689861	CMakeFiles/hello-neon.dir/helloneon.c.o	a9dd8046af5dc674
+17	394	591689861	CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c.o	8e58705ee552e221
+394	783	591689861	libcpufeatures.a	8b8c6c4274b8a090
+12	913	591689861	CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o	58816cc3ce1ce578
+914	1281	591689862	C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/build/intermediates/cmake/debug/obj/x86/libhello-neon.so	3a8851e8fc33c6e
