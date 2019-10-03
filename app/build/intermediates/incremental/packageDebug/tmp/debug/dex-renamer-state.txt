@@ -1,4 +1,4 @@
-#Wed Oct 02 00:58:08 EDT 2019
-base.0=C\:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Thu Oct 03 19:33:37 EDT 2019
+base.0=C\:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

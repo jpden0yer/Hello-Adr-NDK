@@ -22,16 +22,11 @@
 #include <cpu-features.h>
 #include <stdbool.h>
 #include "helloneon-intrinsics.h"
+
+
+//JP 100219 added include line below
 #include "global_includes.h"
 
-/* return current time in milliseconds */
-static double
-now_ms(void)
-{
-    struct timespec res;
-    clock_gettime(CLOCK_REALTIME, &res);
-    return 1000.0*res.tv_sec + (double)res.tv_nsec/1e6;
-}
 
 jstring  Java_com_example_helloneon_HelloNeon_stringFromJNI( JNIEnv* env,
                                                              jobject thiz ) {

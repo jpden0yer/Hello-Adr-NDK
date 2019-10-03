@@ -36,6 +36,7 @@ public class HelloNeon extends AppCompatActivity {
             }
         });
     }
+
     public native String stringFromJNI();
 
 
