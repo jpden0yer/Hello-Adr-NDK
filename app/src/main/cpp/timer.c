@@ -8,19 +8,10 @@
 #include "global_includes.h"
 #ifdef android_native
 
-#include "../../../../../../../../../AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/time.h"
-#include "../../../../../../../../../AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/linux/time.h"
-#include "../../../../../../../../../AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/8.0.7/include/stdbool.h"
-#include "../../../../../../../../../AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/8.0.7/include/stdbool.h"
-#include "../../../../../../../../../AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/time.h"
-#include "../../../../../../../../../AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/linux/time.h"
-
-#endif
-
-#ifdef rasp_pi_linux
 #include <time.h>
-#endif
+//#include "../../../../../../../../../AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/time.h"
 
+#endif
 
 unsigned long long  timer0;
 unsigned long interval;
@@ -43,7 +34,6 @@ now_ms(void)
 
 }
 
-
 // tmr_init
 void	tmr_init( unsigned long p_interval)
 {
@@ -51,19 +41,6 @@ void	tmr_init( unsigned long p_interval)
     timer0 = now_ms();
     interval = p_interval * 1000.0;
 }
-/*
-unsigned long tmr_get_elsapsed_time(void)
-{
-
-	unsigned long long curr_time =
-            now_ms();
-	unsigned long long timer_value = curr_time - timer0;
-        //timer_value is implicitly truncated from 2-long to long
-	//this should be fine because the amount of time since sign started
-	//is much less then the time since Jan 1 1970
-	return( timer_value);  //return msec??
-}
-*/
 
 bool tmr_poll(void){
 

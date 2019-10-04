@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\src\main\AndroidManifest.xml:7:9-43
