@@ -15,16 +15,8 @@
  *
  */
 #include <jni.h>
-#include <time.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <cpu-features.h>
-#include <stdbool.h>
-#include "helloneon-intrinsics.h"
-
-
-//JP 100219 added include line below
+//100319 JP deleted unneeded includes
+//100219 JP added include line below
 #include "global_includes.h"
 
 
