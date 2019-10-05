@@ -13,6 +13,12 @@
 
 {
   "directory": "C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_neon_EXPORTS -IC:/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/sources/android/cpufeatures  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\hello-neon.dir\\data.c.o   -c C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\cpp\\data.c",
+  "file": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\cpp\\data.c"
+},
+
+{
+  "directory": "C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/.cxx/cmake/debug/x86_64",
   "command": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\cpufeatures.dir\\C_\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\sources\\android\\cpufeatures\\cpu-features.c.o   -c C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\sources\\android\\cpufeatures\\cpu-features.c",
   "file": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\sources\\android\\cpufeatures\\cpu-features.c"
 }

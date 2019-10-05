@@ -1,7 +1,8 @@
 ninja: Entering directory `C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\.cxx\cmake\debug\armeabi-v7a'
-[1/6] Building C object CMakeFiles/hello-neon.dir/helloneon.c.o
-[2/6] Building C object CMakeFiles/hello-neon.dir/timer.c.o
-[3/6] Building C object CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o
-[4/6] Building C object CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/sources/android/cpufeatures/cpu-features.c.o
-[5/6] Linking C static library libcpufeatures.a
-[6/6] Linking C shared library C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libhello-neon.so
+[1/7] Building C object CMakeFiles/hello-neon.dir/helloneon.c.o
+[2/7] Building C object CMakeFiles/hello-neon.dir/timer.c.o
+[3/7] Building C object CMakeFiles/hello-neon.dir/data.c.o
+[4/7] Building C object CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o
+[5/7] Building C object CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/sources/android/cpufeatures/cpu-features.c.o
+[6/7] Linking C static library libcpufeatures.a
+[7/7] Linking C shared library C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libhello-neon.so

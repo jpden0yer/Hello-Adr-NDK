@@ -34,6 +34,7 @@ endif ()
 add_library(hello-neon SHARED
         helloneon.c
         timer.c
+        data.c
         ${neon_SRCS})
 target_include_directories(hello-neon PRIVATE
         ${ANDROID_NDK}/sources/android/cpufeatures)
