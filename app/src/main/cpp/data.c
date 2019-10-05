@@ -36,16 +36,16 @@ void data_init(JNIEnv* p_env, jobject p_thiz, jstring filename, unsigned long in
         }
     }
     else {
-        lines[0] = (*env)->NewStringUTF(env, "line 1");
-        lines[1] = (*env)->NewStringUTF(env, "line 2");
-        lines[2] = (*env)->NewStringUTF(env, "line 3");
-        lines[3] = (*env)->NewStringUTF(env, "line 4");
-        lines[4] = (*env)->NewStringUTF(env, "line 5");
-        lines[5] = (*env)->NewStringUTF(env, "line 6");
-        lines[6] = (*env)->NewStringUTF(env, "line 7");
-        lines[7] = (*env)->NewStringUTF(env, "line 8");
-        lines[8] = (*env)->NewStringUTF(env, "line 9");
-        lines[9] = (*env)->NewStringUTF(env, "line 10");
+        lines[0] = (*env)->NewStringUTF(env, "Pine 1");
+        lines[1] = (*env)->NewStringUTF(env, "Pine 2");
+        lines[2] = (*env)->NewStringUTF(env, "Pine 3");
+        lines[3] = (*env)->NewStringUTF(env, "Pine 4");
+        lines[4] = (*env)->NewStringUTF(env, "Pine 5");
+        lines[5] = (*env)->NewStringUTF(env, "Pine 6");
+        lines[6] = (*env)->NewStringUTF(env, "Pine 7");
+        lines[7] = (*env)->NewStringUTF(env, "Pine 8");
+        lines[8] = (*env)->NewStringUTF(env, "Pine 9");
+        lines[9] = (*env)->NewStringUTF(env, "Pine 10");
     }
     tmr_init(interval);
 }
