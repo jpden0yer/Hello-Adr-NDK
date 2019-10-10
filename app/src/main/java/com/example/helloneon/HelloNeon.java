@@ -1,26 +1,23 @@
 package com.example.helloneon;
-
 import androidx.annotation.Keep;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class HelloNeon extends AppCompatActivity {
-
     TextView tv;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_neon);
-
+        Log.d("File Directory", getApplicationContext().getFilesDir().toString());
+        Log.d("Cache Directory", getApplicationContext().getCacheDir().toString());
         tv = findViewById(R.id.text_view_hello_neon);
         /*
         ((TextView)findViewById(R.id.text_view_hello_neon))
                 .setText(stringFromJNI());  */
-
         new doWork().execute("");
     }
 
@@ -52,7 +49,6 @@ public class HelloNeon extends AppCompatActivity {
             while (true) {
 
                 stringFromJNI();
-
             }
             // return null;
         }

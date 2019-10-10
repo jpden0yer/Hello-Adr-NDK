@@ -1,7 +1,7 @@
 ninja: Entering directory `C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\.cxx\cmake\debug\x86_64'
 [1/6] Building C object CMakeFiles/hello-neon.dir/helloneon.c.o
-[2/6] Building C object CMakeFiles/hello-neon.dir/data.c.o
-[3/6] Building C object CMakeFiles/hello-neon.dir/timer.c.o
+[2/6] Building C object CMakeFiles/hello-neon.dir/timer.c.o
+[3/6] Building C object CMakeFiles/hello-neon.dir/data.c.o
 [4/6] Building C object CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/sources/android/cpufeatures/cpu-features.c.o
 [5/6] Linking C static library libcpufeatures.a
 [6/6] Linking C shared library C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\build\intermediates\cmake\debug\obj\x86_64\libhello-neon.so

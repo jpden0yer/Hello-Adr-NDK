@@ -15,6 +15,7 @@
  *
  */
 #include <jni.h>
+//#include <stdio.h>
 //100319 JP deleted unneeded includes
 //100219 JP added include line below
 #include "global_includes.h"
@@ -24,7 +25,8 @@ jstring  Java_com_example_helloneon_HelloNeon_stringFromJNI( JNIEnv* env,
                                                              jobject thiz ) {
 
 
-    jstring filename = (*env)->NewStringUTF(env, "sign1.dat");;
+    jstring filename = (*env)->NewStringUTF(env, "/data/user/0/com.example.helloneon/files/sign1.dat");;
+
     data_init(env, thiz, filename, 3  ) ;
 
     while (true) {
