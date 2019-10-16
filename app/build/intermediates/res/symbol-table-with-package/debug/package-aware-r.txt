@@ -679,6 +679,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnGet
+id button2
 id buttonPanel
 id center
 id center_horizontal
@@ -700,6 +702,7 @@ id direct
 id disableHome
 id edit_query
 id end
+id et_textdata
 id expand_activities_button
 id expanded_menu
 id fill

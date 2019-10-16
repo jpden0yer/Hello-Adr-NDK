@@ -2,24 +2,24 @@
   "buildFiles": [
     "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
     "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
-    "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\Hello-Andr-NDK\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\Hello-Andr-NDK\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\Hello-Andr-NDK\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "cpufeatures-Debug-armeabi-v7a": {
       "artifactName": "cpufeatures",
-      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" cpufeatures",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\Hello-Andr-NDK\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" cpufeatures",
       "abi": "armeabi-v7a",
-      "output": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\libcpufeatures.a"
+      "output": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\Hello-Andr-NDK\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\libcpufeatures.a"
     },
     "hello-neon-Debug-armeabi-v7a": {
       "artifactName": "hello-neon",
-      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" hello-neon",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\Hello-Andr-NDK\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" hello-neon",
       "abi": "armeabi-v7a",
-      "output": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libhello-neon.so"
+      "output": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\Hello-Andr-NDK\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libhello-neon.so"
     }
   }
 }

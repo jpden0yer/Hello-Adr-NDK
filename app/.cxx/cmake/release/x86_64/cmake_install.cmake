@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/src/main/cpp
+# Install script for directory: C:/Users/user/Dropbox/android/new-comp/add-pi-code/Hello-Andr-NDK/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/user/Dropbox/android/new-comp/add-pi-code/hello-neon-pi/app/.cxx/cmake/release/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/user/Dropbox/android/new-comp/add-pi-code/Hello-Andr-NDK/app/.cxx/cmake/release/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

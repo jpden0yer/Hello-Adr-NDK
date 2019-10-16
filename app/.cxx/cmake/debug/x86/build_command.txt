@@ -1,10 +1,10 @@
 Executable : C:\Users\user\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HC:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\src\main\cpp
--BC:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\.cxx\cmake\debug\x86
+-HC:\Users\user\Dropbox\Android\new-comp\Add-pi-code\Hello-Andr-NDK\app\src\main\cpp
+-BC:\Users\user\Dropbox\Android\new-comp\Add-pi-code\Hello-Andr-NDK\app\.cxx\cmake\debug\x86
 -DANDROID_ABI=x86
 -DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\user\Dropbox\Android\new-comp\Add-pi-code\Hello-Andr-NDK\app\build\intermediates\cmake\debug\obj\x86
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=C:\Users\user\AppData\Local\Android\Sdk\ndk\20.0.5594570
 -DCMAKE_SYSTEM_NAME=Android

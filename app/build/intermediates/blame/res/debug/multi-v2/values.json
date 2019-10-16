@@ -1,42 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\user\\Dropbox\\Android\\new-comp\\Add-pi-code\\Hello-Andr-NDK\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "153,154,155",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7704,7750,7797",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7745,7792,7843"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,146",
-                        "endColumns": "57,55",
-                        "endOffsets": "141,197"
-                    },
-                    "to": {
-                        "startLines": "275,276",
-                        "startColumns": "4,4",
-                        "startOffsets": "15856,15914",
-                        "endColumns": "57,55",
-                        "endOffsets": "15909,15965"
-                    }
-                },
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\c1763829f79bc3811543d2bb9a22b866\\constraintlayout-1.1.3\\res\\values\\values.xml",
                     "from": {
@@ -54,6 +20,42 @@
                         "endLines": "2,10,11,12,13,14,20,23,24,25,28,29,32,35,36,37,38,39,42,45,46,47,48,53,56,59,60,61,66,67,68,71,74,75,78,81,84,87,88,91,94,95,100,101,106,109,112,113,114,115,116,117,118,119,120,121,130,2548,2549,2550,2787",
                         "endColumns": "60,11,47,51,60,45,11,60,59,69,11,67,11,11,61,64,67,66,11,11,66,64,64,11,11,11,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,11,11,64,61,61,61,58,59,60,60,58,11,2575,131,3263,107",
                         "endOffsets": "161,452,500,552,613,659,902,1057,1117,1187,1320,1388,1517,1643,1705,1770,1838,1905,2028,2153,2220,2285,2350,2531,2652,2773,2839,2906,3116,3185,3251,3376,3502,3569,3695,3822,3947,4074,4139,4265,4388,4453,4661,4728,4908,5028,5148,5213,5275,5337,5399,5458,5518,5579,5640,5699,6074,162499,162631,165895,179963"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\Dropbox\\Android\\new-comp\\Add-pi-code\\Hello-Andr-NDK\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "153,154,155",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7704,7750,7797",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7745,7792,7843"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\Dropbox\\Android\\new-comp\\Add-pi-code\\Hello-Andr-NDK\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
+                    },
+                    "to": {
+                        "startLines": "387",
+                        "startColumns": "4",
+                        "startOffsets": "23260",
+                        "endLines": "392",
+                        "endColumns": "12",
+                        "endOffsets": "23574"
                     }
                 },
                 {
@@ -76,6 +78,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\user\\Dropbox\\Android\\new-comp\\Add-pi-code\\Hello-Andr-NDK\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "46",
+                        "endOffsets": "59"
+                    },
+                    "to": {
+                        "startLines": "379",
+                        "startColumns": "4",
+                        "startOffsets": "22647",
+                        "endColumns": "46",
+                        "endOffsets": "22689"
+                    }
+                },
+                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\cbfe81a657ef2afb513a6ca64388f844\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -95,20 +114,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\user\\Dropbox\\Android\\new-comp\\Add-pi-code\\Hello-Andr-NDK\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "46",
-                        "endOffsets": "58"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "90,149",
+                        "endColumns": "57,55",
+                        "endOffsets": "143,200"
                     },
                     "to": {
-                        "startLines": "379",
-                        "startColumns": "4",
-                        "startOffsets": "22647",
-                        "endColumns": "46",
-                        "endOffsets": "22689"
+                        "startLines": "275,276",
+                        "startColumns": "4,4",
+                        "startOffsets": "15856,15914",
+                        "endColumns": "57,55",
+                        "endOffsets": "15909,15965"
                     }
                 },
                 {
@@ -128,25 +147,6 @@
                         "endLines": "178,179,277,278,279,280,281,282,283,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,316,317,323,324,328,329,330,331,332,333,339,381,1702,1706,1707,1711,1712,1849,1850,2521,2710,2742,2779,2786",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "9265,9328,16035,16103,16175,16245,16306,16380,16453,17298,17359,17421,17485,17547,17608,17676,17776,17836,17902,17975,18044,18101,18153,18215,18740,18816,19090,19125,19317,19378,19435,19469,19504,19539,19884,22813,110815,111016,111126,111327,111456,122354,122421,158531,175653,177718,179478,179855"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\Dropbox\\android\\new-comp\\add-pi-code\\hello-neon-pi\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "368"
-                    },
-                    "to": {
-                        "startLines": "387",
-                        "startColumns": "4",
-                        "startOffsets": "23260",
-                        "endLines": "392",
-                        "endColumns": "12",
-                        "endOffsets": "23574"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 Executable : C:\Users\user\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-C:\Users\user\Dropbox\android\new-comp\add-pi-code\hello-neon-pi\app\.cxx\cmake\debug\x86_64
+C:\Users\user\Dropbox\android\new-comp\add-pi-code\Hello-Andr-NDK\app\.cxx\cmake\debug\x86_64
 hello-neon
 jvmArgs : 
 

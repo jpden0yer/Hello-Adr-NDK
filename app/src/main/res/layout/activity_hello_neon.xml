@@ -7,14 +7,64 @@
     android:layout_height="match_parent"
     tools:context="com.example.helloneon.HelloNeon">
 
+
+
     <TextView
+        android:id="@+id/text_view_hello_neon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/text_view_hello_neon"
         android:text="Hello World!"
-        app:layout_constraintLeft_toLeftOf="@+id/activity_hello_neon"
-        app:layout_constraintTop_toTopOf="@+id/activity_hello_neon"
-        app:layout_constraintRight_toRightOf="@+id/activity_hello_neon"
-        app:layout_constraintBottom_toBottomOf="@+id/activity_hello_neon" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <EditText
+        android:id="@+id/et_textdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:maxLines="10"
+        android:minLines="10"
+        android:text=" Line 1 \n Line2 \n Line3 \n Line4 \n Line5 \n Line6 \n Line7 \n Line8 \n Line9 \n Line10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="86dp"
+        android:text="Get"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        tools:text="Get" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="93dp"
+        android:text="Send"
+        app:layout_constraintBottom_toTopOf="@+id/et_textdata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toEndOf="@+id/btnGet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="Send" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
