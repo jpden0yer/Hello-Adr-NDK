@@ -1,1 +1,2 @@
-this version of TiniView uses android natives
+This version of TiniView uses android natives
+Please expand this file
