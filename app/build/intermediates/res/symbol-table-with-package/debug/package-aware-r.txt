@@ -680,7 +680,8 @@ id beginning
 id blocking
 id bottom
 id btnGet
-id button2
+id btnSave
+id btnSend
 id buttonPanel
 id center
 id center_horizontal

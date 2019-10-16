@@ -34,7 +34,7 @@ void data_init(JNIEnv* p_env, jobject p_thiz, jstring filename, unsigned long in
     {
         for (int i = 0 ; i < 10; i++){
             size_t char_byte_size = 1;
-            size_t char_count = 10;
+            size_t char_count = linelenght;
             fread(&thisline, char_byte_size, char_count, fp);
             lines [i] =    (*env)->NewStringUTF(env, (const char*) &thisline);
         }
@@ -58,7 +58,7 @@ void data_init(JNIEnv* p_env, jobject p_thiz, jstring filename, unsigned long in
         {
             for (int i = 0 ; i < 10; i++){
                 size_t char_byte_size = 1;
-                size_t char_count = 10;
+                size_t char_count = linelenght;
                 //fwrite(&lines [i], char_byte_size, char_count, fp);
                 fwrite((*env)->GetStringUTFChars(env, lines [i], 0), char_byte_size, char_count, fp);
             }

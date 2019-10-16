@@ -8,25 +8,20 @@
     tools:context="com.example.helloneon.HelloNeon">
 
 
-
     <TextView
         android:id="@+id/text_view_hello_neon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
         android:text="Hello World!"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047" />
+        app:layout_constraintStart_toEndOf="@+id/btnGet"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/et_textdata"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
         android:ems="10"
         android:maxLines="10"
         android:minLines="10"
@@ -34,37 +29,45 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01999998" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnGet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="86dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
         android:text="Get"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnSend"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036"
-        tools:text="Get" />
+        tools:text="Get"
+        android:visibility="invisible"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="95dp"
-        android:layout_marginBottom="93dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="45dp"
         android:text="Send"
-        app:layout_constraintBottom_toTopOf="@+id/et_textdata"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toEndOf="@+id/btnGet"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:text="Send" />
+        app:layout_constraintTop_toBottomOf="@+id/text_view_hello_neon"
+        tools:text="Send"
+        android:visibility="invisible"   />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:text="Save"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnSend"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="Save"
+
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
