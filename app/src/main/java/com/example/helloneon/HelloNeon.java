@@ -11,11 +11,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 
 public class HelloNeon extends AppCompatActivity {
     FileOutputStream outputStream;
+
+    FileInputStream inputStream;
+
 
     //String filename = "/data/user/0/com.example.helloneon/files/sign1.dat";
     String filename = "sign1.dat";
@@ -32,9 +36,7 @@ public class HelloNeon extends AppCompatActivity {
         tv = findViewById(R.id.text_view_hello_neon);
         mTextData = findViewById(R.id.et_textdata);
 
-        /*
-        ((TextView)findViewById(R.id.text_view_hello_neon))
-                .setText(stringFromJNI());  */
+        Open(new View(this));
         new doWork().execute("");
     }
 
@@ -115,6 +117,54 @@ public class HelloNeon extends AppCompatActivity {
         mlines = mlines.toUpperCase();
         mTextData.setText(mlines);
     };
+
+
+
+    public void Open(View view) {
+        String txtxdata = "";
+
+        try {
+
+
+            int thisdata;
+            char thischar;
+            //byte[] dat = new byte[(lineLength + 1)* lineCount];
+
+            inputStream = openFileInput(filename) ;
+            for (;;)
+            {
+                thisdata = inputStream.read();
+                if (thisdata == -1)
+                    break;
+
+                thischar = (char)thisdata;
+
+                txtxdata = txtxdata + thischar;
+                //txtxdata.concat(String.valueOf(thischar));
+            }
+            //inputStream.read(dat) ;
+
+            //String txtxdata = dat.toString();
+            mTextData.setText(txtxdata);
+
+
+            inputStream.close();
+
+            /*
+            outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+            outputStream.write(mTextData.getText().toString().getBytes());
+            outputStream.close();
+            */
+
+        }catch(Exception e) {
+            e.printStackTrace();
+
+            Toast.makeText(this,"open error", Toast.LENGTH_LONG);
+        }
+
+
+    }
+
 
     public void Save(View view) {
         formatText();

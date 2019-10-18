@@ -35,13 +35,13 @@
         android:id="@+id/btnGet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="Get"
+        android:visibility="invisible"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnSend"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="Get"
-        android:visibility="invisible"/>
+        tools:text="Get" />
 
     <Button
         android:id="@+id/btnSend"
@@ -51,23 +51,32 @@
         android:layout_marginLeft="18dp"
         android:layout_marginTop="45dp"
         android:text="Send"
+        android:visibility="invisible"
         app:layout_constraintStart_toEndOf="@+id/btnGet"
         app:layout_constraintTop_toBottomOf="@+id/text_view_hello_neon"
-        tools:text="Send"
-        android:visibility="invisible"   />
+        tools:text="Send" />
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="38dp"
-        android:layout_marginRight="38dp"
+        android:onClick="Save"
         android:text="Save"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnSend"
         app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="Save"
 
         />
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:text="Open"
+        android:onClick="Open"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnSend"
+        app:layout_constraintStart_toEndOf="@+id/btnSend" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

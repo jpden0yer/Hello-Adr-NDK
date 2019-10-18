@@ -680,6 +680,7 @@ id beginning
 id blocking
 id bottom
 id btnGet
+id btnOpen
 id btnSave
 id btnSend
 id buttonPanel

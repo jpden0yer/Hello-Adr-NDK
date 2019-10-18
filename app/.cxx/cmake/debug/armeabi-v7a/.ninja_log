@@ -1,8 +1,8 @@
 # ninja log v5
-11	534	592897621	CMakeFiles/hello-neon.dir/helloneon.c.o	1b4b470b70147aef
-33	846	592897621	CMakeFiles/hello-neon.dir/data.c.o	9abdce3391c079f9
-20	861	592897621	CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o	25feb8a4fc4424ac
-1	1293	592897622	CMakeFiles/hello-neon.dir/timer.c.o	e45cec4f1d3ed84b
-39	1692	592897622	CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/sources/android/cpufeatures/cpu-features.c.o	95686c16e8c9dc94
-1693	3743	592897624	libcpufeatures.a	7b12c22c47936839
-3743	3959	592897624	C:/Users/user/Dropbox/Android/new-comp/Add-pi-code/Hello-Andr-NDK/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-neon.so	28103e0b912865ef
+10	1114	593063953	CMakeFiles/hello-neon.dir/helloneon.c.o	1b4b470b70147aef
+14	1452	593063953	CMakeFiles/hello-neon.dir/data.c.o	9abdce3391c079f9
+19	1454	593063953	CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o	25feb8a4fc4424ac
+2	1657	593063954	CMakeFiles/hello-neon.dir/timer.c.o	e45cec4f1d3ed84b
+25	2113	593063954	CMakeFiles/cpufeatures.dir/C_/Users/user/AppData/Local/Android/Sdk/ndk/20.0.5594570/sources/android/cpufeatures/cpu-features.c.o	95686c16e8c9dc94
+2114	3622	593063956	libcpufeatures.a	7b12c22c47936839
+3623	3849	593063956	C:/Users/user/Dropbox/Android/new-comp/Add-pi-code/Hello-Andr-NDK/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-neon.so	28103e0b912865ef
