@@ -4,28 +4,25 @@
 #include <string.h>
 #include <errno.h>
 
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
 #define  linelenght 24
 #define  linecount 10
 
 static jstring lines [linecount];
 static int selected_line = 0;
+struct stat sb;
+static jstring filename;
 char thisline [linelenght + 1];
 JNIEnv* env;
 jobject thiz;
 jclass mainActivityObj;
 jmethodID timerId2;
 
-void data_init(JNIEnv* p_env, jobject p_thiz, jstring filename, unsigned long interval  ) {
-    env = p_env;
-    thiz = p_thiz;
-    //JP-CF 090819 originally incorrectly used just this in place of next 2
-    jclass clz = (*env)->GetObjectClass(env, thiz);
-    //JP-CF 090819 added following line, passing jniHelperClz to GetMethodID:
-    jclass jniHelperClz = (*env)->NewGlobalRef(env, clz);
-    //JP-CF 090819 added following line, passing mainActivityObj to CallVoidMethod:
-    mainActivityObj = (*env)->NewGlobalRef(env, thiz);
-    timerId2 = (*env)->GetMethodID(env, jniHelperClz,
-                                   "updateSign", "(Ljava/lang/String;)V");
+void reinit(){
     FILE *fp;
 
     //fp = fopen(filename, "r");
@@ -79,11 +76,46 @@ void data_init(JNIEnv* p_env, jobject p_thiz, jstring filename, unsigned long in
             while (true);
         }
     }
-    //fclose(fp);
+
+    //101919 JP store the file info to compare to determine if latter changed
+    stat((*env)->GetStringUTFChars(env, filename, 0), &sb);
+    selected_line = 0;
+    //101919 JP display first line initially
+    (*env)->CallVoidMethod(env, mainActivityObj, timerId2, get_line());
+
+}
+
+void data_init(JNIEnv* p_env, jobject p_thiz, jstring p_filename, unsigned long interval  ) {
+
+    filename = p_filename;
+    env = p_env;
+    thiz = p_thiz;
+    //JP-CF 090819 originally incorrectly used just this in place of next 2
+    jclass clz = (*env)->GetObjectClass(env, thiz);
+    //JP-CF 090819 added following line, passing jniHelperClz to GetMethodID:
+    jclass jniHelperClz = (*env)->NewGlobalRef(env, clz);
+    //JP-CF 090819 added following line, passing mainActivityObj to CallVoidMethod:
+    mainActivityObj = (*env)->NewGlobalRef(env, thiz);
+    timerId2 = (*env)->GetMethodID(env, jniHelperClz,
+                                   "updateSign", "(Ljava/lang/String;)V");
+
+
+    reinit();
+
     tmr_init(interval);
 }
 
 bool data_poll(void){
+
+    struct stat local_sb;
+    stat((*env)->GetStringUTFChars(env, filename, 0), &local_sb);
+    if (local_sb.st_mtime != sb.st_mtime)  {
+        reinit();
+
+
+    }
+
+
 
     if (tmr_poll() )  {
 

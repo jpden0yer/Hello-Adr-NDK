@@ -1,2 +1,3 @@
 ninja: Entering directory `C:\Users\user\Dropbox\Android\new-comp\Add-pi-code\Hello-Andr-NDK\app\.cxx\cmake\debug\x86'
-ninja: no work to do.
+[1/2] Building C object CMakeFiles/hello-neon.dir/data.c.o
+[2/2] Linking C shared library C:\Users\user\Dropbox\Android\new-comp\Add-pi-code\Hello-Andr-NDK\app\build\intermediates\cmake\debug\obj\x86\libhello-neon.so

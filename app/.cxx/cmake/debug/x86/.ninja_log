@@ -6,3 +6,6 @@
 15	989	593063957	CMakeFiles/hello-neon.dir/helloneon-intrinsics.c.o	81bb6f87e2bda0e4
 913	1399	593063957	libcpufeatures.a	a0045fb461ee0c7e
 1399	1581	593063957	C:/Users/user/Dropbox/Android/new-comp/Add-pi-code/Hello-Andr-NDK/app/build/intermediates/cmake/debug/obj/x86/libhello-neon.so	825ebf179d098e3e
+9	2195	593066233	C:/Users/user/Dropbox/Android/new-comp/Add-pi-code/Hello-Andr-NDK/app/build/intermediates/cmake/debug/obj/x86/libhello-neon.so	825ebf179d098e3e
+6	101319	593233791	CMakeFiles/hello-neon.dir/data.c.o	18c40b373bbe4a9f
+101331	105863	593233796	C:/Users/user/Dropbox/Android/new-comp/Add-pi-code/Hello-Andr-NDK/app/build/intermediates/cmake/debug/obj/x86/libhello-neon.so	825ebf179d098e3e
